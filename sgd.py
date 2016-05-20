@@ -42,7 +42,7 @@ def sgd(knownRating, learningRate, lambdaConst, numIterations):
     return [qi, pu, error]
 
 print(known_ratings_vec[0])
-print(sgd(known_ratings_vec[0], 0.50, 10, 5))
+print(sgd(known_ratings_vec[0], 0.50, 10, 10))
 
 
 
