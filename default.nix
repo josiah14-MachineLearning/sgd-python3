@@ -1,6 +1,3 @@
-# This is non-functional at the moment.  Needs to be tweaked to
-# work on OSX and Ubuntu.  I have no NixOS install to test
-# against.
 with import <nixpkgs> {}; {
   python3Env = stdenv.mkDerivation rec {
     name = "python3-env";
