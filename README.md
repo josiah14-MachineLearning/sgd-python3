@@ -14,4 +14,4 @@
   - The reason for the above is that it's currently not possible to upgrade Pip from within Nix using Pip, so you have
     to copy the latest Pip over yourself.
 - `source venv/bin/activate`
-- `pip install --target=venv/lib/python3.5/site-packages -r requirements.txt`
+- `pip install --target=$PWD/venv/lib/python3.5/site-packages -r requirements.txt`
