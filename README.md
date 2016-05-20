@@ -1,5 +1,7 @@
 # Getting the Environment Up.
 
+*The Nix environment is verified on OSX El Capitan and Ubuntu 16.04, but it should also work in NixOS 16*
+
 - Install Nix package manager (skip this step if you already have it installed)
   - `curl https://nixos.org/nix/install | sh`
 - `nix-shell .`
