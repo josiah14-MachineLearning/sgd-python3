@@ -13,7 +13,11 @@ with import <nixpkgs> {}; {
       libzip
       zlib
       stdenv
-      python3-3.5.0
-    ]
-  }
+      python35
+      python35Packages.pip
+      python35Packages.virtualenv
+    ];
+
+    pathsToLink = [ "/include" ];
+  };
 }
