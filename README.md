@@ -15,3 +15,6 @@
     to copy the latest Pip over yourself.
 - `source venv/bin/activate`
 - `pip install --target=$PWD/venv/lib/python3.5/site-packages -r requirements.txt`
+
+# Running the SGD Algorithm
+- `python sgd.py`
