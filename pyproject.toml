@@ -7,7 +7,7 @@ license = "AGPL-3.0-or-later"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-numpy = "^1.19.1"
+numpy = "^1.22.0"
 
 [tool.poetry.dev-dependencies]
 
